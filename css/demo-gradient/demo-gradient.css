@@ -354,6 +354,14 @@ a.btn-mod{
     line-height: 1.22;
     letter-spacing: -0.037em;
 }
+.hs-subtitle-1{
+  margin-top: 0;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.22;
+  letter-spacing: -0.037em;
+  color: var(--color-primary-1);
+}
 .light-content .toggle,
 .light-content .toggle > dt > a,
 .light-content .accordion,
@@ -733,6 +741,9 @@ a.link-hover-anim i{
     .hs-title-1{
         font-size: calc(1.108rem + 3.68vw);
     }
+    .hs-subtitle-1{
+      font-size: calc(0.8rem + 3.68vw);
+    }
     .section-title{
         font-size: calc(1.582rem + 2.25vw);
     }
@@ -788,4 +799,25 @@ a.link-hover-anim i{
         margin-left: 0 !important;
         margin-right: 0 !important;
     }
+}
+
+/* Custom */
+nav:not(.body-scrolled) .hidden-top {
+  display: none;
+}
+.nav-logo-wrap .logo img {
+  height: 100%;
+  width: auto;
+}
+.bg-line-1 {
+  bottom: calc((2000px - 100vw) / 10);
+}
+.page-section {
+  overflow: hidden;
+}
+@media only screen and (max-width: 991px) {
+  .logo-column {
+    position: absolute;
+    bottom: -100vw;
+  }
 }

@@ -8828,7 +8828,8 @@ a.portfolio-5-link:hover .portfolio-5-title span{
     min-width: 39.6825%;
     overflow: hidden;
 }
-.post-prev-3-img a{
+.post-prev-3-img a,
+.post-prev-3-img div{
     display: block;
     width: 100%;
     height: 100%;
@@ -12359,4 +12360,9 @@ html:not(.mobile) .owl-animate-fadeInDown{
 }
 .works-grid.grid-intro-2 .work-item .work-descr{
     font-size: 16px;
+}
+.fa-lg {
+  font-size: 1.25em;
+  line-height: .05em;
+  vertical-align: -.075em;
 }
