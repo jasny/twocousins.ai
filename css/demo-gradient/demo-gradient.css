@@ -815,6 +815,11 @@ nav:not(.body-scrolled) .hidden-top {
 .page-section {
   overflow: hidden;
 }
+.work-img img.border-1 {
+  border-radius: 6px;
+  border-color: var(--color-gray-light-3);
+  border-style: solid;
+}
 @media only screen and (max-width: 991px) {
   .logo-column {
     position: absolute;
