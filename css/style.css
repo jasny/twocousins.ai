@@ -6049,6 +6049,7 @@ img.services-image{
     border-radius: var(--border-radius-default);
     isolation: isolate;
     transform: translateZ(0);
+    box-shadow: 2px 2px 5px 0 rgba(0,0,0,0.3);
 }
 .services-7-image:before{
     content: "";
@@ -6058,7 +6059,7 @@ img.services-image{
     display: block;
     width: 100%;
     height: 100%;
-    background: var(--gradient-primary-1-b);
+    /*background: var(--gradient-primary-1-b);*/
     opacity: .2;
     z-index: -1;
 }
